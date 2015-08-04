@@ -147,6 +147,7 @@ header.masthead h1, header.masthead h2, header.masthead h3 {
   color: #22a3df;
 }
 
+
 section#whoWeAre {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
@@ -175,7 +176,7 @@ section#about .media .media-body p {
   margin-top: 20px;
 }
 section#highlights {
-  padding: 60px 0;
+  padding: 60px 0 60px 0 !important;
   background: #eeeeee;
   border-top: 1px solid #e0e0e0;
 }
@@ -184,6 +185,7 @@ section#highlights h4, section#highlights h5 {
 }
 section#highlights h4 {
   text-transform: uppercase;
+  padding: 40px 0;
 }
 section#highlights p {
   padding: 15px 0;
@@ -191,7 +193,8 @@ section#highlights p {
   font-size: 13px;
 }
 section#highlights ul {
-  color: #999999;
+  color: black;
+  font-size: 18px;
 }
 section#enterprise {
   background-image: url(../img/samples/bk-bl.jpg);
@@ -357,6 +360,14 @@ section#services .media-services.right:hover:before {
 }
 section#testimonials {
   padding: 40px 0;
+
+  background-image: url(../img/samples/question-mark.png);
+  background-repeat:no-repeat;
+  background-position:left bottom;
+  background-size:20%;
+  position: relative;
+  color: white;
+  text-align: center;
 }
 section#testimonials #testimonials-carousel {
   margin: 30px 0;
@@ -697,6 +708,52 @@ section#crowd-intro a.btn.btn-empty {
   top: 15px;
 }
 section#crowd-intro .carousel-indicators {
+  bottom: -40px;
+}
+
+section#twitter {
+  background-image: url(../img/samples/bk-social.jpg);
+  background-attachment: fixed;
+  padding: 140px 0;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+section#twitter:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.65);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000,endColorstr=#A6000000);
+  zoom: 1;
+}
+section#twitter p {
+  font-size: 16px;
+}
+section#twitter p a {
+  color: #22a3df;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  text-decoration: none;
+}
+section#twitter p a:hover {
+  color: #146387;
+}
+section#twitter a.btn.btn-empty {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 45px auto;
+  position: relative;
+  top: 15px;
+}
+section#twitter .carousel-indicators {
   bottom: -40px;
 }
 section#get-in-touch {
