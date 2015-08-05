@@ -34,6 +34,7 @@ header.masthead .tp-bannertimer {
 }
 header.masthead .tp-caption {
   font-family: "Open Sans", Tahoma, Arial;
+  padding-left: 10px;
 }
 header.masthead .tp-caption a {
   color: white;
@@ -157,6 +158,10 @@ section#whoWeAre {
 }
 section#whoWeAre .media .media-body h4 {
   font-weight: bold;
+  font-size: 24px;
+}
+section#whoWeAre .media .media-body p {
+  font-size: 18px;
 }
 section#about {
   padding: 40px 0;
