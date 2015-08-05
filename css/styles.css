@@ -275,14 +275,6 @@ section#services .media-services.right:hover:before {
 }
 section#testimonials {
   padding: 40px 0;
-
-  background-image: url(../img/samples/question-mark.png);
-  background-repeat:no-repeat;
-  background-position:left bottom;
-  background-size:20%;
-  position: relative;
-  color: white;
-  text-align: center;
 }
 section#testimonials #testimonials-carousel {
   margin: 30px 0;
