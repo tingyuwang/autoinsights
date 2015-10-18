@@ -1,2 +1,1 @@
-# Autoinsights
-autoinsights
+[AutoInsight](http://savy.tw/autoinsight)
